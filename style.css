@@ -1,0 +1,36 @@
+:root {
+    --border-default: solid 1px #d1d1d1;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.app {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    border: var(--border-default);
+}
+
+.all-bars {
+    padding: 15px;
+}
+
+.bar-container {
+    border: var(--border-default);
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.status {
+    height: 100%;
+    background-color: seagreen;
+}
